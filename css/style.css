@@ -1,0 +1,33 @@
+body {
+    max-width: 700px;
+    margin: auto;
+}
+main td {
+    margin: 0;
+    padding: 2px 5px;
+    border-bottom: gray 1px solid;
+}
+#partner-form {
+    display: grid;
+    grid-template-rows: repeat(4, 40px);
+    grid-template-columns: repeat(2, 150px);
+}
+
+input {
+    margin: 5px;
+}
+
+#partner-show {
+    display: block;
+    border: 2px #444 solid;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 60px 20px;
+    font-size: 16pt;
+    color: rgb(127, 11, 11);
+    background: url(../img/hearts.jpg) center/cover;
+    background-size: cover;
+}

@@ -1,4 +1,5 @@
 <?php
+
 $example_persons_array = [
     [
         'fullname' => 'Иванов Иван Иванович',
